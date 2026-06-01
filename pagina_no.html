@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Virus Detectado</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f3f4f6;
+            font-family: Arial, sans-serif;
+        }
+
+        .virus-alert{
+            width: 250px;
+            padding: 25px;
+            text-align: center;
+            background: #fff;
+            border: 3px solid #dc2626;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        .virus-icon{
+            width: 90px;
+            height: 90px;
+            margin: 0 auto 15px;
+            background: #dc2626;
+            color: white;
+            border-radius: 50%;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: alerta 1s infinite;
+        }
+
+        .virus-alert h2{
+            color: #dc2626;
+            margin-bottom: 10px;
+        }
+
+        .virus-alert p{
+            color: #555;
+            margin: 0;
+        }
+
+        @keyframes alerta{
+            0%,100%{
+                transform: scale(1);
+            }
+            50%{
+                transform: scale(1.15);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="virus-alert">
+        <div class="virus-icon">⚠</div>
+        <h2>Virus Detectado</h2>
+        <p>Se ha detectado una amenaza en el sistema.</p>
+    </div>
+
+</body>
+</html>

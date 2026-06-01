@@ -179,7 +179,7 @@ body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
-    ), url('images/bg3.jpg');
+    ), url('padre3.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,19 +233,19 @@ body {
 .general-1 {
     width: 50%; /* Ocupa la mitad del ancho */
     padding: 100px 250px 100px 100px;
-    background-color: #e1e2e6;
+    background-color: #f0dada;
 }
 
 /* Estilos globales compartidos para todos los títulos H2 y párrafos inferiores */
 .general h2 {
     font-size: 70px;
-    color: #323337;
+    color: #422121;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
 .general p {
-    color: #414247;
+    color: #502929;
     margin: 25px 0 45px 0;
 }
 
@@ -318,7 +318,7 @@ body {
 
 .link a {
     font-size: 16px;
-    color: #c5c5c5;
+    color: #c49b9b;
     display: block;
     margin-bottom: 15px;
 }
